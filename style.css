@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background: #f1c40f;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    font-weight: bold;
+}
+.box{
+    font-size: 20px;
+    background-color: #f39c12;
+    border-radius: 8px;
+    padding: 30px;
+    min-width: 400px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+    margin-top: 10px;
+    justify-content: space-between;
+    
+
+}
+.box span{
+    padding: 10px;
+    margin: 10px;
+}
+input#uppercase, input#lowercase, input#numbers , input#symbols{
+    margin-left: 80px;
+
+}
+.box input{
+    align-items: right;
+    align-self: right;
+    justify-content: right;
+}
+.box p{
+    padding: 5px;
+}
+#length{
+    width: 60%;
+    padding:5px;
+    border: none;
+    border-radius: 3px;
+}
+#btn{
+    width: 50%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: #c36a1c;
+    color: white;
+    margin-top: 10px;
+    position: relative;
+    left: 26%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#answer{
+    position: relative;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    left: 25%;
+    font-size: larger;
+}
+  
+   /* margin-left: 85px;
+    margin-bottom: 10px;
